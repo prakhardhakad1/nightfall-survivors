@@ -1,0 +1,362 @@
+[
+  {
+    "id": "spark_dagger",
+    "name": "Spark Dagger",
+    "evolution": { "requiresPassive": "might", "evolvesTo": "storm_dagger" },
+    "levels": [
+      { "level": 1, "damage": 12, "cooldown": 1.2, "area": 1.0, "count": 1, "speed": 400, "description": "Fires a sharp spark dagger at the nearest enemy." },
+      { "level": 2, "damage": 15, "cooldown": 1.1, "area": 1.0, "count": 2, "speed": 420, "description": "Fires +1 dagger." },
+      { "level": 3, "damage": 19, "cooldown": 1.0, "area": 1.1, "count": 2, "speed": 440, "description": "+25% Damage." },
+      { "level": 4, "damage": 24, "cooldown": 0.9, "area": 1.1, "count": 3, "speed": 460, "description": "Fires +1 dagger." },
+      { "level": 5, "damage": 30, "cooldown": 0.85, "area": 1.2, "count": 3, "speed": 480, "description": "+25% Damage, reduced cooldown." },
+      { "level": 6, "damage": 38, "cooldown": 0.8, "area": 1.2, "count": 4, "speed": 500, "description": "Fires +1 dagger." },
+      { "level": 7, "damage": 46, "cooldown": 0.75, "area": 1.3, "count": 4, "speed": 520, "description": "+20% Damage and speed." },
+      { "level": 8, "damage": 55, "cooldown": 0.65, "area": 1.4, "count": 5, "speed": 550, "description": "Fires +1 dagger and pierces 1 enemy." }
+    ]
+  },
+  {
+    "id": "storm_dagger",
+    "name": "Storm Dagger",
+    "evolution": null,
+    "levels": [
+      { "level": 1, "damage": 95, "cooldown": 0.45, "area": 1.8, "count": 6, "speed": 620, "description": "Evolved: Fires high-speed storm daggers that release chain lightning on impact." },
+      { "level": 2, "damage": 110, "cooldown": 0.42, "area": 1.9, "count": 6, "speed": 640, "description": "+15% Damage." },
+      { "level": 3, "damage": 125, "cooldown": 0.40, "area": 2.0, "count": 7, "speed": 660, "description": "+1 Storm Dagger." },
+      { "level": 4, "damage": 140, "cooldown": 0.38, "area": 2.1, "count": 7, "speed": 680, "description": "+15% Damage." },
+      { "level": 5, "damage": 160, "cooldown": 0.35, "area": 2.2, "count": 8, "speed": 700, "description": "+1 Storm Dagger." },
+      { "level": 6, "damage": 180, "cooldown": 0.32, "area": 2.3, "count": 8, "speed": 720, "description": "+15% Damage." },
+      { "level": 7, "damage": 200, "cooldown": 0.30, "area": 2.4, "count": 9, "speed": 740, "description": "+1 Storm Dagger." },
+      { "level": 8, "damage": 230, "cooldown": 0.28, "area": 2.5, "count": 10, "speed": 760, "description": "Ultimate storm flurry." }
+    ]
+  },
+  {
+    "id": "ember_orbit",
+    "name": "Ember Orbit",
+    "evolution": { "requiresPassive": "vitality", "evolvesTo": "solar_corona" },
+    "levels": [
+      { "level": 1, "damage": 10, "cooldown": 3.0, "area": 1.0, "count": 1, "speed": 180, "description": "An ember fireball orbits around you, burning colliding foes." },
+      { "level": 2, "damage": 14, "cooldown": 2.8, "area": 1.1, "count": 2, "speed": 200, "description": "+1 orbiting ember." },
+      { "level": 3, "damage": 18, "cooldown": 2.6, "area": 1.1, "count": 2, "speed": 220, "description": "+25% Damage, +10% Orbit Speed." },
+      { "level": 4, "damage": 22, "cooldown": 2.4, "area": 1.2, "count": 3, "speed": 240, "description": "+1 orbiting ember." },
+      { "level": 5, "damage": 28, "cooldown": 2.2, "area": 1.3, "count": 3, "speed": 260, "description": "+30% Damage and orbit radius." },
+      { "level": 6, "damage": 35, "cooldown": 2.0, "area": 1.3, "count": 4, "speed": 280, "description": "+1 orbiting ember." },
+      { "level": 7, "damage": 44, "cooldown": 1.8, "area": 1.4, "count": 4, "speed": 300, "description": "+25% Damage and faster rotation." },
+      { "level": 8, "damage": 54, "cooldown": 1.6, "area": 1.5, "count": 5, "speed": 320, "description": "+1 orbiting ember; emits fiery pulses." }
+    ]
+  },
+  {
+    "id": "solar_corona",
+    "name": "Solar Corona",
+    "evolution": null,
+    "levels": [
+      { "level": 1, "damage": 88, "cooldown": 1.5, "area": 2.0, "count": 6, "speed": 360, "description": "Evolved: Ring of blazing miniature suns leaving persistent fire trails." },
+      { "level": 2, "damage": 105, "cooldown": 1.4, "area": 2.1, "count": 6, "speed": 380, "description": "+20% Damage." },
+      { "level": 3, "damage": 120, "cooldown": 1.3, "area": 2.2, "count": 7, "speed": 400, "description": "+1 Solar Orbit." },
+      { "level": 4, "damage": 140, "cooldown": 1.2, "area": 2.3, "count": 7, "speed": 420, "description": "+20% Damage." },
+      { "level": 5, "damage": 165, "cooldown": 1.1, "area": 2.4, "count": 8, "speed": 440, "description": "+1 Solar Orbit." },
+      { "level": 6, "damage": 190, "cooldown": 1.0, "area": 2.5, "count": 8, "speed": 460, "description": "+15% Damage." },
+      { "level": 7, "damage": 220, "cooldown": 0.9, "area": 2.6, "count": 9, "speed": 480, "description": "+1 Solar Orbit." },
+      { "level": 8, "damage": 260, "cooldown": 0.8, "area": 2.8, "count": 10, "speed": 500, "description": "Maximum solar annihilation barrier." }
+    ]
+  },
+  {
+    "id": "frost_nova",
+    "name": "Frost Nova",
+    "evolution": { "requiresPassive": "clover", "evolvesTo": "absolute_zero" },
+    "levels": [
+      { "level": 1, "damage": 16, "cooldown": 3.0, "area": 120, "count": 1, "speed": 0, "description": "Emits an icy blast chilling and damaging all enemies in an area." },
+      { "level": 2, "damage": 22, "cooldown": 2.8, "area": 140, "count": 1, "speed": 0, "description": "+20 Area radius." },
+      { "level": 3, "damage": 30, "cooldown": 2.6, "area": 160, "count": 1, "speed": 0, "description": "+35% Damage." },
+      { "level": 4, "damage": 40, "cooldown": 2.4, "area": 180, "count": 1, "speed": 0, "description": "+20 Area radius, -0.2s cooldown." },
+      { "level": 5, "damage": 52, "cooldown": 2.2, "area": 200, "count": 1, "speed": 0, "description": "+30% Damage." },
+      { "level": 6, "damage": 66, "cooldown": 2.0, "area": 220, "count": 1, "speed": 0, "description": "+20 Area radius." },
+      { "level": 7, "damage": 82, "cooldown": 1.8, "area": 240, "count": 1, "speed": 0, "description": "+25% Damage, -0.2s cooldown." },
+      { "level": 8, "damage": 105, "cooldown": 1.6, "area": 270, "count": 2, "speed": 0, "description": "Fires a double ring blast freezing targets." }
+    ]
+  },
+  {
+    "id": "absolute_zero",
+    "name": "Absolute Zero",
+    "evolution": null,
+    "levels": [
+      { "level": 1, "damage": 140, "cooldown": 1.5, "area": 320, "count": 2, "speed": 0, "description": "Evolved: Shatters everything in a vast radius with freezing glacial waves." },
+      { "level": 2, "damage": 165, "cooldown": 1.4, "area": 340, "count": 2, "speed": 0, "description": "+20% Damage." },
+      { "level": 3, "damage": 195, "cooldown": 1.3, "area": 360, "count": 3, "speed": 0, "description": "+1 Wave pulse." },
+      { "level": 4, "damage": 230, "cooldown": 1.2, "area": 380, "count": 3, "speed": 0, "description": "+20% Damage." },
+      { "level": 5, "damage": 270, "cooldown": 1.1, "area": 400, "count": 3, "speed": 0, "description": "-0.1s Cooldown, +20 Area." },
+      { "level": 6, "damage": 310, "cooldown": 1.0, "area": 420, "count": 4, "speed": 0, "description": "+1 Wave pulse." },
+      { "level": 7, "damage": 360, "cooldown": 0.9, "area": 440, "count": 4, "speed": 0, "description": "+15% Damage." },
+      { "level": 8, "damage": 420, "cooldown": 0.8, "area": 480, "count": 5, "speed": 0, "description": "Permanent screen-wide blizzard." }
+    ]
+  },
+  {
+    "id": "chain_lightning",
+    "name": "Chain Lightning",
+    "evolution": { "requiresPassive": "wisdom", "evolvesTo": "thunderstorm" },
+    "levels": [
+      { "level": 1, "damage": 18, "cooldown": 1.8, "area": 120, "count": 2, "speed": 0, "description": "Lightning strikes a target and arcs to 2 nearby enemies." },
+      { "level": 2, "damage": 24, "cooldown": 1.7, "area": 130, "count": 3, "speed": 0, "description": "+1 Chain arc." },
+      { "level": 3, "damage": 32, "cooldown": 1.6, "area": 140, "count": 3, "speed": 0, "description": "+30% Damage." },
+      { "level": 4, "damage": 42, "cooldown": 1.5, "area": 150, "count": 4, "speed": 0, "description": "+1 Chain arc." },
+      { "level": 5, "damage": 54, "cooldown": 1.4, "area": 160, "count": 4, "speed": 0, "description": "+25% Damage, -0.1s cooldown." },
+      { "level": 6, "damage": 68, "cooldown": 1.3, "area": 170, "count": 5, "speed": 0, "description": "+1 Chain arc." },
+      { "level": 7, "damage": 84, "cooldown": 1.2, "area": 180, "count": 5, "speed": 0, "description": "+25% Damage." },
+      { "level": 8, "damage": 105, "cooldown": 1.0, "area": 200, "count": 6, "speed": 0, "description": "+1 Chain arc; arcs shock twice." }
+    ]
+  },
+  {
+    "id": "thunderstorm",
+    "name": "Thunderstorm",
+    "evolution": null,
+    "levels": [
+      { "level": 1, "damage": 150, "cooldown": 0.8, "area": 240, "count": 8, "speed": 0, "description": "Evolved: Relentless lightning tempest chaining through crowds." },
+      { "level": 2, "damage": 180, "cooldown": 0.75, "area": 250, "count": 9, "speed": 0, "description": "+1 Chain arc." },
+      { "level": 3, "damage": 215, "cooldown": 0.7, "area": 260, "count": 9, "speed": 0, "description": "+20% Damage." },
+      { "level": 4, "damage": 255, "cooldown": 0.65, "area": 270, "count": 10, "speed": 0, "description": "+1 Chain arc." },
+      { "level": 5, "damage": 300, "cooldown": 0.6, "area": 280, "count": 10, "speed": 0, "description": "-0.05s Cooldown." },
+      { "level": 6, "damage": 350, "cooldown": 0.55, "area": 290, "count": 11, "speed": 0, "description": "+1 Chain arc." },
+      { "level": 7, "damage": 410, "cooldown": 0.5, "area": 300, "count": 12, "speed": 0, "description": "+15% Damage." },
+      { "level": 8, "damage": 480, "cooldown": 0.45, "area": 320, "count": 14, "speed": 0, "description": "Infinite wrath of the heavens." }
+    ]
+  },
+  {
+    "id": "boomerang_blade",
+    "name": "Boomerang Blade",
+    "evolution": { "requiresPassive": "swift_boots", "evolvesTo": "scythe_of_vengeance" },
+    "levels": [
+      { "level": 1, "damage": 20, "cooldown": 2.0, "area": 1.0, "count": 1, "speed": 350, "description": "Throws a spinning blade that pierces enemies and curves back to you." },
+      { "level": 2, "damage": 26, "cooldown": 1.9, "area": 1.1, "count": 1, "speed": 370, "description": "+30% Damage." },
+      { "level": 3, "damage": 32, "cooldown": 1.8, "area": 1.1, "count": 2, "speed": 390, "description": "+1 Boomerang Blade." },
+      { "level": 4, "damage": 40, "cooldown": 1.7, "area": 1.2, "count": 2, "speed": 410, "description": "+25% Damage." },
+      { "level": 5, "damage": 50, "cooldown": 1.6, "area": 1.2, "count": 3, "speed": 430, "description": "+1 Boomerang Blade." },
+      { "level": 6, "damage": 62, "cooldown": 1.5, "area": 1.3, "count": 3, "speed": 450, "description": "+25% Damage." },
+      { "level": 7, "damage": 76, "cooldown": 1.4, "area": 1.3, "count": 4, "speed": 470, "description": "+1 Boomerang Blade." },
+      { "level": 8, "damage": 95, "cooldown": 1.2, "area": 1.5, "count": 4, "speed": 500, "description": "Blade returns with double damage." }
+    ]
+  },
+  {
+    "id": "scythe_of_vengeance",
+    "name": "Scythe of Vengeance",
+    "evolution": null,
+    "levels": [
+      { "level": 1, "damage": 130, "cooldown": 1.0, "area": 1.8, "count": 4, "speed": 480, "description": "Evolved: Twin-blade death scythes slicing back and forth endlessly." },
+      { "level": 2, "damage": 155, "cooldown": 0.95, "area": 1.9, "count": 4, "speed": 500, "description": "+20% Damage." },
+      { "level": 3, "damage": 185, "cooldown": 0.9, "area": 2.0, "count": 5, "speed": 520, "description": "+1 Death Scythe." },
+      { "level": 4, "damage": 220, "cooldown": 0.85, "area": 2.1, "count": 5, "speed": 540, "description": "+20% Damage." },
+      { "level": 5, "damage": 260, "cooldown": 0.8, "area": 2.2, "count": 6, "speed": 560, "description": "+1 Death Scythe." },
+      { "level": 6, "damage": 305, "cooldown": 0.75, "area": 2.3, "count": 6, "speed": 580, "description": "+15% Damage." },
+      { "level": 7, "damage": 355, "cooldown": 0.7, "area": 2.4, "count": 7, "speed": 600, "description": "+1 Death Scythe." },
+      { "level": 8, "damage": 420, "cooldown": 0.65, "area": 2.5, "count": 8, "speed": 620, "description": "All-reaping phantom scythe storm." }
+    ]
+  },
+  {
+    "id": "venom_cloud",
+    "name": "Venom Cloud",
+    "evolution": { "requiresPassive": "greed", "evolvesTo": "toxic_miasma" },
+    "levels": [
+      { "level": 1, "damage": 8, "cooldown": 2.5, "area": 80, "count": 1, "speed": 0, "description": "Spawns a poisonous puddle dealing damage over time." },
+      { "level": 2, "damage": 12, "cooldown": 2.3, "area": 95, "count": 1, "speed": 0, "description": "+50% Damage and +15 area." },
+      { "level": 3, "damage": 16, "cooldown": 2.2, "area": 110, "count": 2, "speed": 0, "description": "+1 Venom cloud puddle." },
+      { "level": 4, "damage": 22, "cooldown": 2.0, "area": 125, "count": 2, "speed": 0, "description": "+35% Damage." },
+      { "level": 5, "damage": 28, "cooldown": 1.9, "area": 140, "count": 3, "speed": 0, "description": "+1 Venom cloud puddle." },
+      { "level": 6, "damage": 36, "cooldown": 1.8, "area": 155, "count": 3, "speed": 0, "description": "+30% Damage." },
+      { "level": 7, "damage": 46, "cooldown": 1.7, "area": 170, "count": 4, "speed": 0, "description": "+1 Venom cloud puddle." },
+      { "level": 8, "damage": 58, "cooldown": 1.5, "area": 190, "count": 4, "speed": 0, "description": "Clouds slow enemy movement by 30%." }
+    ]
+  },
+  {
+    "id": "toxic_miasma",
+    "name": "Toxic Miasma",
+    "evolution": null,
+    "levels": [
+      { "level": 1, "damage": 80, "cooldown": 1.2, "area": 240, "count": 5, "speed": 0, "description": "Evolved: Giant caustic clouds melting armor and dissolving foes." },
+      { "level": 2, "damage": 98, "cooldown": 1.15, "area": 255, "count": 5, "speed": 0, "description": "+20% Damage." },
+      { "level": 3, "damage": 118, "cooldown": 1.1, "area": 270, "count": 6, "speed": 0, "description": "+1 Toxic puddle." },
+      { "level": 4, "damage": 140, "cooldown": 1.05, "area": 285, "count": 6, "speed": 0, "description": "+20% Damage." },
+      { "level": 5, "damage": 165, "cooldown": 1.0, "area": 300, "count": 7, "speed": 0, "description": "+1 Toxic puddle." },
+      { "level": 6, "damage": 195, "cooldown": 0.95, "area": 315, "count": 7, "speed": 0, "description": "+15% Damage." },
+      { "level": 7, "damage": 230, "cooldown": 0.9, "area": 330, "count": 8, "speed": 0, "description": "+1 Toxic puddle." },
+      { "level": 8, "damage": 275, "cooldown": 0.8, "area": 360, "count": 9, "speed": 0, "description": "Perpetual corrosive apocalypse." }
+    ]
+  },
+  {
+    "id": "prism_beam",
+    "name": "Prism Beam",
+    "evolution": { "requiresPassive": "clover", "evolvesTo": "death_ray" },
+    "levels": [
+      { "level": 1, "damage": 22, "cooldown": 2.2, "area": 1.0, "count": 1, "speed": 120, "description": "Emits a rotating prismatic laser sweeping through enemies." },
+      { "level": 2, "damage": 30, "cooldown": 2.0, "area": 1.1, "count": 1, "speed": 140, "description": "+35% Damage." },
+      { "level": 3, "damage": 38, "cooldown": 1.9, "area": 1.1, "count": 2, "speed": 160, "description": "+1 Rotating Beam." },
+      { "level": 4, "damage": 48, "cooldown": 1.8, "area": 1.2, "count": 2, "speed": 180, "description": "+25% Damage." },
+      { "level": 5, "damage": 60, "cooldown": 1.7, "area": 1.2, "count": 3, "speed": 200, "description": "+1 Rotating Beam." },
+      { "level": 6, "damage": 74, "cooldown": 1.6, "area": 1.3, "count": 3, "speed": 220, "description": "+25% Damage." },
+      { "level": 7, "damage": 90, "cooldown": 1.5, "area": 1.3, "count": 4, "speed": 240, "description": "+1 Rotating Beam." },
+      { "level": 8, "damage": 110, "cooldown": 1.3, "area": 1.5, "count": 4, "speed": 270, "description": "Beams ignite targets on contact." }
+    ]
+  },
+  {
+    "id": "death_ray",
+    "name": "Death Ray",
+    "evolution": null,
+    "levels": [
+      { "level": 1, "damage": 160, "cooldown": 0.9, "area": 2.0, "count": 4, "speed": 300, "description": "Evolved: High-energy concentrated beam disintegrating all matter." },
+      { "level": 2, "damage": 190, "cooldown": 0.85, "area": 2.1, "count": 4, "speed": 320, "description": "+20% Damage." },
+      { "level": 3, "damage": 225, "cooldown": 0.8, "area": 2.2, "count": 5, "speed": 340, "description": "+1 Death Ray beam." },
+      { "level": 4, "damage": 265, "cooldown": 0.75, "area": 2.3, "count": 5, "speed": 360, "description": "+20% Damage." },
+      { "level": 5, "damage": 310, "cooldown": 0.7, "area": 2.4, "count": 6, "speed": 380, "description": "+1 Death Ray beam." },
+      { "level": 6, "damage": 360, "cooldown": 0.65, "area": 2.5, "count": 6, "speed": 400, "description": "+15% Damage." },
+      { "level": 7, "damage": 420, "cooldown": 0.6, "area": 2.6, "count": 7, "speed": 420, "description": "+1 Death Ray beam." },
+      { "level": 8, "damage": 490, "cooldown": 0.5, "area": 2.8, "count": 8, "speed": 450, "description": "Constant 360-degree orbital disintegration." }
+    ]
+  },
+  {
+    "id": "meteor_call",
+    "name": "Meteor Call",
+    "evolution": { "requiresPassive": "might", "evolvesTo": "starfall" },
+    "levels": [
+      { "level": 1, "damage": 35, "cooldown": 3.2, "area": 90, "count": 1, "speed": 0, "description": "Summons a falling meteor that explodes on the arena." },
+      { "level": 2, "damage": 48, "cooldown": 3.0, "area": 105, "count": 1, "speed": 0, "description": "+35% Damage." },
+      { "level": 3, "damage": 62, "cooldown": 2.8, "area": 120, "count": 2, "speed": 0, "description": "+1 Falling Meteor." },
+      { "level": 4, "damage": 80, "cooldown": 2.6, "area": 135, "count": 2, "speed": 0, "description": "+30% Damage." },
+      { "level": 5, "damage": 100, "cooldown": 2.4, "area": 150, "count": 3, "speed": 0, "description": "+1 Falling Meteor." },
+      { "level": 6, "damage": 124, "cooldown": 2.2, "area": 165, "count": 3, "speed": 0, "description": "+25% Damage." },
+      { "level": 7, "damage": 150, "cooldown": 2.0, "area": 180, "count": 4, "speed": 0, "description": "+1 Falling Meteor." },
+      { "level": 8, "damage": 185, "cooldown": 1.7, "area": 200, "count": 5, "speed": 0, "description": "Massive impact shockwave with extra stun." }
+    ]
+  },
+  {
+    "id": "starfall",
+    "name": "Starfall",
+    "evolution": null,
+    "levels": [
+      { "level": 1, "damage": 240, "cooldown": 1.4, "area": 220, "count": 6, "speed": 0, "description": "Evolved: Rains celestial stars down upon entire battalions." },
+      { "level": 2, "damage": 285, "cooldown": 1.35, "area": 235, "count": 6, "speed": 0, "description": "+20% Damage." },
+      { "level": 3, "damage": 335, "cooldown": 1.3, "area": 250, "count": 7, "speed": 0, "description": "+1 Celestial Star." },
+      { "level": 4, "damage": 390, "cooldown": 1.25, "area": 265, "count": 7, "speed": 0, "description": "+20% Damage." },
+      { "level": 5, "damage": 450, "cooldown": 1.2, "area": 280, "count": 8, "speed": 0, "description": "+1 Celestial Star." },
+      { "level": 6, "damage": 520, "cooldown": 1.1, "area": 295, "count": 8, "speed": 0, "description": "+15% Damage." },
+      { "level": 7, "damage": 600, "cooldown": 1.0, "area": 310, "count": 9, "speed": 0, "description": "+1 Celestial Star." },
+      { "level": 8, "damage": 700, "cooldown": 0.85, "area": 340, "count": 10, "speed": 0, "description": "Cataclysmic meteor deluge." }
+    ]
+  },
+  {
+    "id": "thorn_guard",
+    "name": "Thorn Guard",
+    "evolution": { "requiresPassive": "iron_plate", "evolvesTo": "bramble_bastion" },
+    "levels": [
+      { "level": 1, "damage": 15, "cooldown": 0.5, "area": 45, "count": 1, "speed": 0, "description": "Spiky brambles surround you, damaging enemies that contact you." },
+      { "level": 2, "damage": 22, "cooldown": 0.48, "area": 50, "count": 1, "speed": 0, "description": "+50% Retaliation Damage." },
+      { "level": 3, "damage": 30, "cooldown": 0.45, "area": 55, "count": 1, "speed": 0, "description": "+35% Damage and +5 aura radius." },
+      { "level": 4, "damage": 40, "cooldown": 0.42, "area": 60, "count": 1, "speed": 0, "description": "+30% Damage." },
+      { "level": 5, "damage": 52, "cooldown": 0.4, "area": 65, "count": 1, "speed": 0, "description": "+30% Damage and knocks back attacking foes." },
+      { "level": 6, "damage": 66, "cooldown": 0.38, "area": 70, "count": 1, "speed": 0, "description": "+25% Damage." },
+      { "level": 7, "damage": 82, "cooldown": 0.35, "area": 75, "count": 1, "speed": 0, "description": "+25% Damage." },
+      { "level": 8, "damage": 102, "cooldown": 0.3, "area": 85, "count": 1, "speed": 0, "description": "Adds 5 points of permanent passive armor." }
+    ]
+  },
+  {
+    "id": "bramble_bastion",
+    "name": "Bramble Bastion",
+    "evolution": null,
+    "levels": [
+      { "level": 1, "damage": 140, "cooldown": 0.25, "area": 120, "count": 1, "speed": 0, "description": "Evolved: Massive iron thorns impaling anyone approaching." },
+      { "level": 2, "damage": 170, "cooldown": 0.24, "area": 125, "count": 1, "speed": 0, "description": "+20% Damage." },
+      { "level": 3, "damage": 205, "cooldown": 0.23, "area": 130, "count": 1, "speed": 0, "description": "+20% Damage." },
+      { "level": 4, "damage": 245, "cooldown": 0.22, "area": 135, "count": 1, "speed": 0, "description": "+20% Damage." },
+      { "level": 5, "damage": 290, "cooldown": 0.2, "area": 140, "count": 1, "speed": 0, "description": "+20% Damage, +10 armor." },
+      { "level": 6, "damage": 340, "cooldown": 0.18, "area": 145, "count": 1, "speed": 0, "description": "+15% Damage." },
+      { "level": 7, "damage": 400, "cooldown": 0.16, "area": 150, "count": 1, "speed": 0, "description": "+15% Damage." },
+      { "level": 8, "damage": 470, "cooldown": 0.14, "area": 165, "count": 1, "speed": 0, "description": "Impenetrable fortress of thorns." }
+    ]
+  },
+  {
+    "id": "gale_blades",
+    "name": "Gale Blades",
+    "evolution": { "requiresPassive": "swift_boots", "evolvesTo": "cyclone_blades" },
+    "levels": [
+      { "level": 1, "damage": 14, "cooldown": 2.2, "area": 1.0, "count": 2, "speed": 280, "description": "Fires twin wind blades traveling in an expanding spiral." },
+      { "level": 2, "damage": 19, "cooldown": 2.0, "area": 1.1, "count": 3, "speed": 300, "description": "+1 Spiral blade." },
+      { "level": 3, "damage": 25, "cooldown": 1.9, "area": 1.1, "count": 3, "speed": 320, "description": "+30% Damage." },
+      { "level": 4, "damage": 33, "cooldown": 1.8, "area": 1.2, "count": 4, "speed": 340, "description": "+1 Spiral blade." },
+      { "level": 5, "damage": 42, "cooldown": 1.7, "area": 1.2, "count": 4, "speed": 360, "description": "+25% Damage." },
+      { "level": 6, "damage": 53, "cooldown": 1.6, "area": 1.3, "count": 5, "speed": 380, "description": "+1 Spiral blade." },
+      { "level": 7, "damage": 66, "cooldown": 1.5, "area": 1.3, "count": 5, "speed": 400, "description": "+25% Damage." },
+      { "level": 8, "damage": 82, "cooldown": 1.3, "area": 1.5, "count": 6, "speed": 440, "description": "+1 Spiral blade; pushes enemies back." }
+    ]
+  },
+  {
+    "id": "cyclone_blades",
+    "name": "Cyclone Blades",
+    "evolution": null,
+    "levels": [
+      { "level": 1, "damage": 115, "cooldown": 0.9, "area": 2.0, "count": 8, "speed": 480, "description": "Evolved: Whirlwind of razor air shredding in dense outward spirals." },
+      { "level": 2, "damage": 135, "cooldown": 0.85, "area": 2.1, "count": 8, "speed": 500, "description": "+20% Damage." },
+      { "level": 3, "damage": 160, "cooldown": 0.8, "area": 2.2, "count": 9, "speed": 520, "description": "+1 Cyclone blade." },
+      { "level": 4, "damage": 190, "cooldown": 0.75, "area": 2.3, "count": 9, "speed": 540, "description": "+20% Damage." },
+      { "level": 5, "damage": 225, "cooldown": 0.7, "area": 2.4, "count": 10, "speed": 560, "description": "+1 Cyclone blade." },
+      { "level": 6, "damage": 265, "cooldown": 0.65, "area": 2.5, "count": 10, "speed": 580, "description": "+15% Damage." },
+      { "level": 7, "damage": 310, "cooldown": 0.6, "area": 2.6, "count": 12, "speed": 600, "description": "+2 Cyclone blades." },
+      { "level": 8, "damage": 370, "cooldown": 0.5, "area": 2.8, "count": 14, "speed": 640, "description": "Category 5 hurricane vortex." }
+    ]
+  },
+  {
+    "id": "moon_aura",
+    "name": "Moon Aura",
+    "evolution": { "requiresPassive": "vitality", "evolvesTo": "eclipse_nova" },
+    "levels": [
+      { "level": 1, "damage": 9, "cooldown": 0.8, "area": 110, "count": 1, "speed": 0, "description": "Pale moonlight radiates from you, continuously damaging enemies within." },
+      { "level": 2, "damage": 14, "cooldown": 0.75, "area": 125, "count": 1, "speed": 0, "description": "+50% Damage." },
+      { "level": 3, "damage": 20, "cooldown": 0.7, "area": 140, "count": 1, "speed": 0, "description": "+15 Aura radius." },
+      { "level": 4, "damage": 27, "cooldown": 0.65, "area": 155, "count": 1, "speed": 0, "description": "+35% Damage." },
+      { "level": 5, "damage": 36, "cooldown": 0.6, "area": 170, "count": 1, "speed": 0, "description": "+15 Aura radius." },
+      { "level": 6, "damage": 47, "cooldown": 0.55, "area": 185, "count": 1, "speed": 0, "description": "+30% Damage." },
+      { "level": 7, "damage": 60, "cooldown": 0.5, "area": 200, "count": 1, "speed": 0, "description": "+25% Damage." },
+      { "level": 8, "damage": 78, "cooldown": 0.45, "area": 225, "count": 1, "speed": 0, "description": "Heals 1 HP every 50 ticks of damage dealt." }
+    ]
+  },
+  {
+    "id": "eclipse_nova",
+    "name": "Eclipse Nova",
+    "evolution": null,
+    "levels": [
+      { "level": 1, "damage": 95, "cooldown": 0.35, "area": 280, "count": 1, "speed": 0, "description": "Evolved: Total solar eclipse aura pulling energy and life from foes." },
+      { "level": 2, "damage": 115, "cooldown": 0.33, "area": 295, "count": 1, "speed": 0, "description": "+20% Damage." },
+      { "level": 3, "damage": 138, "cooldown": 0.31, "area": 310, "count": 1, "speed": 0, "description": "+15 Aura radius." },
+      { "level": 4, "damage": 165, "cooldown": 0.29, "area": 325, "count": 1, "speed": 0, "description": "+20% Damage." },
+      { "level": 5, "damage": 195, "cooldown": 0.27, "area": 340, "count": 1, "speed": 0, "description": "+15 Aura radius." },
+      { "level": 6, "damage": 230, "cooldown": 0.25, "area": 355, "count": 1, "speed": 0, "description": "+15% Damage." },
+      { "level": 7, "damage": 270, "cooldown": 0.22, "area": 370, "count": 1, "speed": 0, "description": "+15% Damage." },
+      { "level": 8, "damage": 320, "cooldown": 0.18, "area": 400, "count": 1, "speed": 0, "description": "Eternal dark twilight devouring all foes." }
+    ]
+  },
+  {
+    "id": "howl_pack",
+    "name": "Howl Pack",
+    "evolution": { "requiresPassive": "magnet_charm", "evolvesTo": "apex_pack" },
+    "levels": [
+      { "level": 1, "damage": 20, "cooldown": 2.5, "area": 1.0, "count": 1, "speed": 260, "description": "Summons a loyal spectral wolf minion that hunts down targets." },
+      { "level": 2, "damage": 27, "cooldown": 2.3, "area": 1.1, "count": 1, "speed": 280, "description": "+35% Wolf damage and speed." },
+      { "level": 3, "damage": 34, "cooldown": 2.1, "area": 1.1, "count": 2, "speed": 300, "description": "+1 Spectral wolf minion." },
+      { "level": 4, "damage": 43, "cooldown": 1.9, "area": 1.2, "count": 2, "speed": 320, "description": "+25% Damage." },
+      { "level": 5, "damage": 54, "cooldown": 1.8, "area": 1.2, "count": 3, "speed": 340, "description": "+1 Spectral wolf minion." },
+      { "level": 6, "damage": 67, "cooldown": 1.7, "area": 1.3, "count": 3, "speed": 360, "description": "+25% Damage." },
+      { "level": 7, "damage": 82, "cooldown": 1.6, "area": 1.3, "count": 4, "speed": 380, "description": "+1 Spectral wolf minion." },
+      { "level": 8, "damage": 105, "cooldown": 1.4, "area": 1.5, "count": 5, "speed": 420, "description": "+1 Spectral wolf minion with fierce bite." }
+    ]
+  },
+  {
+    "id": "apex_pack",
+    "name": "Apex Pack",
+    "evolution": null,
+    "levels": [
+      { "level": 1, "damage": 140, "cooldown": 0.8, "area": 2.0, "count": 6, "speed": 450, "description": "Evolved: Pack of mythical shadow beasts tearing through hordes." },
+      { "level": 2, "damage": 170, "cooldown": 0.75, "area": 2.1, "count": 6, "speed": 470, "description": "+20% Damage." },
+      { "level": 3, "damage": 205, "cooldown": 0.7, "area": 2.2, "count": 7, "speed": 490, "description": "+1 Shadow beast." },
+      { "level": 4, "damage": 245, "cooldown": 0.65, "area": 2.3, "count": 7, "speed": 510, "description": "+20% Damage." },
+      { "level": 5, "damage": 290, "cooldown": 0.6, "area": 2.4, "count": 8, "speed": 530, "description": "+1 Shadow beast." },
+      { "level": 6, "damage": 340, "cooldown": 0.55, "area": 2.5, "count": 8, "speed": 550, "description": "+15% Damage." },
+      { "level": 7, "damage": 400, "cooldown": 0.5, "area": 2.6, "count": 9, "speed": 570, "description": "+1 Shadow beast." },
+      { "level": 8, "damage": 480, "cooldown": 0.4, "area": 2.8, "count": 10, "speed": 620, "description": "Alpha apex predator dominance." }
+    ]
+  }
+]

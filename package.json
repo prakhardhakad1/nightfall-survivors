@@ -1,0 +1,17 @@
+{
+  "name": "nightfall-survivors",
+  "version": "1.0.0",
+  "description": "Vampire-Survivors-like arena survival game — web-first (TypeScript + HTML5 Canvas), wrapped via Capacitor to APK for the Play Store. Portrait, one-thumb, Hindi-first.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite": "^6.2.1",
+    "vitest": "^3.0.8"
+  }
+}
